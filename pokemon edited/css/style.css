@@ -1,0 +1,89 @@
+body{
+  /* background-image: url(https://data.whicdn.com/images/133141866/large.png); */
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  /* padding-top: 50px; */
+}
+header{
+  max-height: 160px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 40px;
+}
+header img{
+  height:100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+section{
+  /* border: 4px dotted lightpink; */
+  /* background-color: #aecfc8; */
+  opacity: .9;
+}
+.leftBar{
+  float: left;
+  height: 100vh;
+  width: 30%;
+  font-family: 'Indie Flower', cursive;
+  color: purple;
+  background-color: white;
+}
+.rightBody img{
+  margin-top: 50px;
+  width: 205px;
+  height: 270px;
+}
+label{
+  font-size: 25px;
+}
+input{
+  margin-top: 28px;
+  padding: 8px;
+  width: 59%;
+  margin-left: 10px;
+  height: 40px;
+}
+.leftBar h4{
+  margin-top: 200px;
+  clear: both;
+  font-size: 25px;
+}
+.rightBody{
+  height: 100vh;
+  float: right;
+  width: 70%;
+  text-align: center;
+  color: purple;
+  font-family: 'Indie Flower';
+  background-color: #d36d0e;
+}
+.rightBody h2{
+  font-size: 20px;
+}
+.rightBody h3{
+  font-size: 25px;
+}
+button{
+  width: 40px;
+  height: 58px;
+  background-color: transparent;
+  width: 25%;
+  border: 1px solid #aecfc8;
+}
+button img{
+  width: 20px;
+  height: 20px;
+}
+.error{
+  color: #CC0000;
+  font-size: 18px;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .leftBar, .rightBody {
+  width: 100%;
+  }
+}
